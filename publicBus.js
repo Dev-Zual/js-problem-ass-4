@@ -1,5 +1,8 @@
 // calculate the public bus fair
 function publicBusFair(totalPeople) {
+  if (typeof totalPeople !== "number") {
+    return "please provide a valid input";
+  }
   const perBusCapacity = 50;
   const perMicroCapacity = 11;
   const publicBusTicket = 250;
