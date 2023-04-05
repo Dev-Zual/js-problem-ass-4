@@ -11,4 +11,4 @@ function publicBusFair(totalPeople) {
   //   console.log(restMicroSeat);
 }
 
-console.log(publicBusFair(365));
+console.log(publicBusFair(71));
